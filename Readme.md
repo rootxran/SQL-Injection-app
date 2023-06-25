@@ -24,7 +24,7 @@ Start Application:
 ```
 docker-compose -f docker-compose.yaml up -d
 ```
-Stop Application
+Stop Application:
 ```
 docker-compose -f docker-compose.yaml down
 ```

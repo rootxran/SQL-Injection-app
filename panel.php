@@ -18,11 +18,11 @@ if (mysqli_num_rows($result) > 0) {
   $_SESSION["isadmin"] = false;
   if ($user['is_admin']) {
     $_SESSION["isadmin"] = true;
-    header("Location: admin.php");
+    header("Location: /admin.php");
     exit();
   } else {
     // $_SESSION["isadmin"] = false;
-    header("Location: rootxran.php");
+    header("Location: /rootxran.php");
     exit();
   }
 } else {

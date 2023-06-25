@@ -2,10 +2,10 @@
 session_start();
 if (isset($_SESSION['loggedin'])) {
     if (isset($_SESSION['isadmin']) && $_SESSION['isadmin'] === true) {
-        header('Location: /sqli/admin.php');
+        header('Location: /admin.php');
         exit();
     } else {
-        header('Location: /sqli/rootxran.php');
+        header('Location: /rootxran.php');
         exit();
     }
 }

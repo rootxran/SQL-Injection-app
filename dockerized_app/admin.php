@@ -118,10 +118,10 @@ if (isset($_SESSION['loggedin'])) {
     }
     echo "</table>";
   } else {
-    header('Location: /sqli/rootxran.php');
+    header('Location: /rootxran.php');
     exit();
   }
 } else {
-  header('Location: /sqli/login.php');
+  header('Location: /login.php');
   exit();
 }

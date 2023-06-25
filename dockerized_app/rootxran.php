@@ -122,5 +122,5 @@ if (isset($_SESSION['loggedin'])) {
 
   echo "</table>";
 } else {
-  header('Location: /sqli/login.php');
+  header('Location: /login.php');
 }

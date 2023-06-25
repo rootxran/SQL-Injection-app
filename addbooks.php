@@ -4,9 +4,7 @@ $dbuser = 'user';
 $dbpassword = 'password';
 $dbname = 'rootxran';
 if (isset($_POST["submit"])) {
-    echo "chceking";
     $connection = mysqli_connect($dbhostname, $dbuser, $dbpassword, $dbname);
-    $book_id = $_POST["book_id"];
     $book_name = $_POST["book_name"];
     $book_code = $_POST["book_code"];
 

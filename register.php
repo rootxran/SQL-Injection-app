@@ -41,7 +41,7 @@ if (isset($_POST["submit"])) {
 echo '<!DOCTYPE html>
     <html>
     <head>
-    <title>Login Panel</title>
+    <title>Register Panel</title>
     <style>
         body {
         background-image: url(\'background.jpg\');
@@ -60,6 +60,16 @@ echo '<!DOCTYPE html>
         border-radius: 5px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+        header {
+            // background-color: #333;
+            color: #fff;
+            padding: 10px;
+          }
+        
+            nav {
+            display: flex;
+            justify-content: flex-end;
+            }
         
         h1 {
         text-align: center;
@@ -121,19 +131,19 @@ echo '<!DOCTYPE html>
     <body>
     <header>
   <nav>
-  <a href="register.php">Register</a>
+  <a href="login.php">Login</a>
   </nav>
   </header>
     <div class="container">
-        <h1>Login Panel</h1>
-        <form action="panel.php" method="post">
+        <h1>Register Panel</h1>
+        <form action="adduser.php" method="post">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username">
         <br>
         <label for="password">Password:</label>
         <input type="password" id="password" name="password">
         <br><br>
-        <input type="submit" value="Login">
+        <input type="submit" value="Register">
         </form>
     </div>
     </body>

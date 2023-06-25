@@ -95,7 +95,7 @@ if (isset($_SESSION['loggedin'])) {
         </body>
         
         </html>';
-    $dbhostname = 'localhost';
+    $dbhostname = 'db';
     $dbuser = 'user';
     $dbpassword = 'password';
     $dbname = 'rootxran';

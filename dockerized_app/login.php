@@ -9,7 +9,7 @@ if (isset($_SESSION['loggedin'])) {
         exit();
     }
 }
-$dbhostname = 'localhost';
+$dbhostname = 'db';
 $dbuser = 'user';
 $dbpassword = 'password';
 $dbname = 'rootxran';

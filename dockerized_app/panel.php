@@ -1,5 +1,5 @@
 <?php
-$dbhostname = 'localhost';
+$dbhostname = 'db';
 $dbuser = 'user';
 $dbpassword = 'password';
 $dbname = 'rootxran';
